@@ -22,6 +22,8 @@ h1, h2, h3 {
     color: rgba(232, 240, 37, 0.87);
     font-weight: 100;
     font-family: sans-serif;
+    padding-top: 40px;
+    padding-bottom: 10px;
     
 }
 
@@ -156,7 +158,7 @@ h1, h2, h3 {
 .meal-photo img {
     opacity: 0.7;    
     width: 100%;
-    height: auto;
+    height: 350px;;
     /*make the img bigger*/
     transform: scale(1.15);
 /*trasition*/
@@ -191,4 +193,8 @@ ul li a:hover {
 .about img {
     width: 200px;
     border-radius: 50%;
+}
+
+.footer {
+    color: white;
 }
